@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+/*Header and Navigation Section*/
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+ li a {
+   color: black;
+ }
