@@ -8,6 +8,12 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  color: mediumaquamarine;
 }
 
 li {
@@ -16,4 +22,12 @@ li {
 }
  li a {
    color: black;
+ }
+ .logo {
+   display: flex;
+   align-items: center;
+ }
+ .navigation {
+   display: inline-flex;
+   justify-content: space-around;
  }
