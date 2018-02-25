@@ -38,3 +38,10 @@ li {
  }
 
  /*Main content secttion*/
+ article {
+   border: 1px solid black;
+ }
+
+div {
+  boder: 1px solid black;
+}
