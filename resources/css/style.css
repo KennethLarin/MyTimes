@@ -38,12 +38,8 @@ li {
  }
 
  /*Main content secttion*/
- article {
-   /*Border is temporaly and needs to be remote*/
-   border: 1px solid black;
- }
 
-article div {
+div {
   border: 1px solid black;
 }
 
@@ -94,6 +90,10 @@ article div {
 
 #camara {
   background-image: url("../images/img-story-3.png");
+}
+
+#cats {
+  background-image: url("../images/img-story-1.png");
 }
 
 .content p {
