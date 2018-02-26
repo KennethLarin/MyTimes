@@ -45,3 +45,8 @@ li {
 
 article div {
   border: 1px solid black;
+}
+
+.conteiner {
+  display: flex;
+}
