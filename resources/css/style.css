@@ -39,9 +39,9 @@ li {
 
  /*Main content secttion*/
  article {
+   /*Border is temporaly and needs to be remote*/
    border: 1px solid black;
  }
 
-div {
-  boder: 1px solid black;
-}
+article div {
+  border: 1px solid black;
