@@ -49,7 +49,10 @@ article div {
 
 .conteiner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  font-family: georgia;
 }
 
 /*Columns settings*/
@@ -71,4 +74,32 @@ article div {
 
 .large, .medium, .small {
   flex-direction: column;
+}
+
+/*Items content settings*/
+
+.caption {
+  display: flex;
+  font-size: 30px;
+  color: white;
+}
+#tuna {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+}
+
+#earth {
+  background-image: url("../images/img-story-2.png");
+}
+
+#camara {
+  background-image: url("../images/img-story-3.png");
+}
+
+.content p {
+  font-size: 17px;
+}
+
+.content h3 {
+  font-size: 30px;
 }
