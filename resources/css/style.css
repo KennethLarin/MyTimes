@@ -49,4 +49,26 @@ article div {
 
 .conteiner {
   display: flex;
+  justify-content: space-around;
+}
+
+/*Columns settings*/
+.column {
+  display: flex;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+.large, .medium, .small {
+  flex-direction: column;
 }
