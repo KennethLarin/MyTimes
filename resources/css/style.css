@@ -72,6 +72,18 @@ div {
   flex-direction: column;
 }
 
+.column.large .row {
+  display: flex;
+}
+
+.column.large .row .content {
+  flex: 1 1;
+}
+
+.column.large .row .caption {
+  flex: 1 1;
+}
+
 /*Items content settings*/
 
 .caption {
