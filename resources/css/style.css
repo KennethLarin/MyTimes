@@ -38,11 +38,6 @@ li {
  }
 
  /*Main content secttion*/
-
-div {
-  border: 1px solid black;
-}
-
 .conteiner {
   display: flex;
   justify-content: space-evenly;
@@ -54,6 +49,7 @@ div {
 /*Columns settings*/
 .column {
   display: flex;
+  flex-direction: column;
 }
 
 .large {
@@ -72,22 +68,25 @@ div {
   flex-direction: column;
 }
 
-.column.large .row {
+.box {
   display: flex;
+  flex-direction: row;
 }
 
-.column.large .row .content {
-  flex: 1 1;
+#main {
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.column.large .row .caption {
-  flex: 1 1;
+.box .item {
+  display: flex;
+  flex-direction: column;
 }
+
 
 /*Items content settings*/
 
 .caption {
-  display: flex;
   font-size: 30px;
   color: white;
 }
