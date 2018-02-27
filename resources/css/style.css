@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 /*Header and Navigation Section*/
 
 header {
@@ -9,6 +13,11 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid black;
   margin-bottom: 30px;
+  width: 100%;
+  position:fixed;
+  background-color: white;
+  height: 90px;
+  z-index: 10;
 }
 
 h2 {
@@ -39,9 +48,13 @@ li {
  }
 
  /*Main content secttion*/
+ section {
+   position: relative;
+   top: 110px;
+ }
 .conteiner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-family: georgia;
 }
@@ -50,6 +63,7 @@ li {
 .column {
   display: flex;
   flex-direction: column;
+  margin: 15px;
 }
 
 .large {
@@ -143,4 +157,44 @@ li {
   border-bottom: 1px solid black;
   margin: 0;
   padding: 15px;
+}
+
+/*Footer section*/
+
+footer {
+  display: flex;
+  background-color: mediumaquamarine;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 350px;
+  position: relative;
+  top: 120px;
+}
+
+footer .footerbox {
+  display: inline-flex;
+  flex-direction: row;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+footer .footerlogo {
+  font-family: Georgia;
+  font-size: 16px;
+  color: white;
+}
+
+footer .footerlogo h5 {
+  border-right: 2px solid white;
+  padding: 5px 15px;
+
+}
+
+footer .footernav li {
+  padding: 20px 15px;
 }
